@@ -8,7 +8,7 @@
 3、根据自己的域名信息，修改config；
 
 4、控制面板，任务计划，创建任务，任务名称写acme，用户账号选root，计划选每月重复，任务设置输入：
-/volume1/docker/acme/cert-up.sh update >> /volume1/docker/acme/log.txt 2>&1
+`/volume1/docker/acme/cert-up.sh update >> /volume1/docker/acme/log.txt 2>&1`
 
 5、在此任务上点右键，选择“运行”；
 
